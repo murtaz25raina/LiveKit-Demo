@@ -1,0 +1,31 @@
+.n-video-conference-details{
+    border-left: 1px solid rgb(255 255 255 / 10%);
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.n-get-participants-button{
+    background-color:#1e1e1e;
+    color: white;
+    padding: .625rem 1rem;
+    font-size: 16px;
+    border: 0px;
+}
+
+.n-video-conference-details-participant{
+ margin-top: 30px;
+}
+
+.n-video-conference-details-participants{
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+
+.n-video-conference-details-participant-name{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}

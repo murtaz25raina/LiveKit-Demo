@@ -1,0 +1,31 @@
+.n-video-conference-app-container{
+    width: 100%;
+    min-height: 100dvh;
+}
+
+.n-header-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+
+.n-header-links{
+ display: flex;
+ gap: 30px;
+}
+
+.n-header-link{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.n-logo{
+    font-size: 32px;
+    font-weight: 700;
+    user-select: none;
+}

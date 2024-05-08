@@ -1,0 +1,54 @@
+.n-create-room{
+    width: 100%;
+    height: 85dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.n-create-room-form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.n-create-room-roomname,.n-create-room-participants{
+  width: 400px;
+  box-sizing: border-box;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid;
+}       
+
+.n-create-room-button{
+    width: 400px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #1539D3;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.n-room-created-successfully{
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-create-room-error-message,.n-create-a-room-text{
+  color: black;
+}
+
+.n-create-a-room-text{
+font-size: 30px;
+font-weight: 600;
+}
+
+.n-join-room-link{
+    font-size: 20px;
+}
